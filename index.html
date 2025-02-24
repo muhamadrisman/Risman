@@ -1,0 +1,109 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>
+        Portfolio
+    </title>
+    <script src="https://cdn.tailwindcss.com">
+    </script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet" />
+</head>
+
+<body class="font-roboto bg-gray-100">
+    <header class="bg-white shadow">
+        <div class="container mx-auto px-4 py-6 flex justify-between items-center">
+            <h1 class="text-3xl font-bold">
+                My Portfolio
+            </h1>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li>
+                        <a class="text-gray-700 hover:text-gray-900" href="#about">
+                            About
+                        </a>
+                    </li>
+                    <li>
+                        <a class="text-gray-700 hover:text-gray-900" href="#projects">
+                            Projects
+                        </a>
+                    </li>
+                    <li>
+                        <a class="text-gray-700 hover:text-gray-900" href="#contact">
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="container mx-auto px-4 py-12" id="about">
+        <div class="flex flex-col md:flex-row items-center">
+            <img alt="A detailed portrait of the developer" class="w-48 h-48 rounded-full mx-auto md:mx-0 md:mr-8"
+                height="300" src="poto.jpg" width="300" />
+            <div class="mt-6 md:mt-0">
+                <h2 class="text-2xl font-bold">
+                    Tentang saya
+                </h2>
+                <p class="mt-4 text-gray-700">
+                    Saya seorang pengembang yang bersemangat dengan pengalaman dalam membangun aplikasi web menggunakan
+                    teknologi modern. Saya suka membuat antarmuka pengguna yang indah dan fungsional.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="bg-white py-12" id="projects">
+        <div class="container mx-auto px-4">
+            <h2 class="text-2xl font-bold text-center">
+                Projects
+            </h2>
+            <div class="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-gray-100 p-6 rounded-lg shadow-lg">
+                    <img alt="Screenshot of Project 1" class="w-full h-48 object-cover rounded-lg" height="300"
+                        src="blogger.jpg" width="400" />
+                    <h3 class="mt-4 text-xl font-bold">
+                        Project 1
+                    </h3>
+                    <p class="mt-2 text-gray-700">
+                        Membuat postingan di blogger
+                    </p>
+                </div>
+                <div class="bg-gray-100 p-6 rounded-lg shadow-lg">
+                    <img alt="Screenshot of Project 2" class="w-full h-48 object-cover rounded-lg" height="300"
+                        src="todolist.jpg" width="400" />
+                    <h3 class="mt-4 text-xl font-bold">
+                        Project 2
+                    </h3>
+                    <p class="mt-2 text-gray-700">
+                        membuat aplikasi todo-list
+                    </p>
+                </div>
+                <div class="bg-gray-100 p-6 rounded-lg shadow-lg">
+                    <img alt="Screenshot of Project 3" class="w-full h-48 object-cover rounded-lg" height="300"
+                        src="vid.jpg" width="400" />
+                    <h3 class="mt-4 text-xl font-bold">
+                        Project 3
+                    </h3>
+                    <p class="mt-2 text-gray-700">
+                        membuat vidio interaksi
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-gray-800 text-white py-6">
+        <div class="container mx-auto px-4 text-center">
+            <p>
+                © 2025 portofolio saya. Semua hak dilindungi undang-undang
+            </p>
+        </div>
+        <div class="mt-4">
+            <img alt="QR code for portfolio website" class="mx-auto" height="100" src="vid.jpg" width="100" />
+        </div>
+        </div>
+    </footer>
+</body>
+
+</html>
